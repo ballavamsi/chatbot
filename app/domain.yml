@@ -6,14 +6,23 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - job
+  - skill
+  - experience
+  - contact
 
 actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
-- utter_iamabot
+-- utter_greet
+-- utter_cheer_up
+-- utter_did_that_help
+-- utter_happy
+-- utter_goodbye
+-- utter_iamabot
+-- utter_how_to_contact
+-- utter_experience
+-- utter_contact
+-- utter_job
+-- utter_skill
 
 responses:
   utter_greet:
@@ -35,6 +44,20 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_how_to_contact:
+  - text: "Do you want to contact?"
+  
+  utter_experience:
+  - text: "Having a total of 8 years of experience"
+  
+  utter_contact:
+  - text: "Email: ballavamsisrinivas@gmail.com and Phone number: 9963370770"
+  
+  utter_job:
+  - text: "Are you looking for a full stack lead and developer?"
+  
+  utter_skill:
+  - text: "I have .Net , Angular, jquery , SQL and many more..."
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

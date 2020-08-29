@@ -54,3 +54,23 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+
+## intent:skill
+- what are the skills?
+- skill set
+- what skills do vamsi have?
+- is he .net lead?
+
+## intent:experience
+- what is the total experience?
+- experience
+- total years
+- years in it industry
+
+## intent:contact
+- how to contact?
+- what is the phone number?
+- what is the email?
+- way to reach
+- what is the mobile number?
